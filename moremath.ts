@@ -14,7 +14,18 @@ namespace moreMath {
      * @param y the exponent
      */
     //% block
-    export function tspow(x: number, y: number) {
+    export function tpow(x: number, y: number) {
+        return Math.pow(x, y)
+    }
+
+    /**
+     * x raised to the power y
+     * @param x the base value
+     * @param y the exponent
+     */
+    //% block
+    //% shim=moreMath::cpow
+    export function cpow(x: number, y: number) {
         return Math.pow(x, y)
     }
 }
