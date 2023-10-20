@@ -10,7 +10,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "moremath.ts"
+        "moremath.ts",
+        "moremath.cpp"
     ],
     "testFiles": [
         "test.ts"
