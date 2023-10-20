@@ -13,7 +13,7 @@ namespace moreMath {
      * @param x the base value
      * @param y the exponent
      */
-    //% block
+    //% blockId="moremath_tpow" block="%x|tpow %y"
     export function tpow(x: number, y: number) {
         return Math.pow(x, y)
     }
@@ -23,7 +23,7 @@ namespace moreMath {
      * @param x the base value
      * @param y the exponent
      */
-    //% block
+    //% blockId="moremath_fpow" block="%x|fpow %y"
     export function fpow(x: number, y: number) {
         return Math.exp( y * Math.log( x))
     }
@@ -33,7 +33,7 @@ namespace moreMath {
      * @param x the base value
      * @param y the exponent
      */
-    //% block
+    //% blockId="moremath_cpow" block="%x|pow %y"
     //% shim=moreMath::cpow
     export function cpow(x: number, y: number): number {
         return Math.pow(x, y)
