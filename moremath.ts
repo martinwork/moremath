@@ -25,7 +25,7 @@ namespace moreMath {
      */
     //% block
     //% shim=moreMath::cpow
-    export function cpow(x: number, y: number) {
+    export function cpow(x: number, y: number): number {
         return Math.pow(x, y)
     }
 }
