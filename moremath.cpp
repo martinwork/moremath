@@ -8,7 +8,7 @@ namespace moreMath {
   */
 //% block="%x pow %y"
 //%
-double cpow( double x, double y) {
+float cpow( float x, float y) {
   return pow(x,y); 
 }
 }
