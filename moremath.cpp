@@ -6,7 +6,7 @@ namespace moreMath {
 /**
   * cpow: x raised to the power y
   */
-//% block="%x pow %y"
+//% blockId="moremath_cpow" block="%x|pow %y"
 //%
 float cpow( float x, float y) {
   return pow(x,y); 
