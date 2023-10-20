@@ -24,6 +24,16 @@ namespace moreMath {
      * @param y the exponent
      */
     //% block
+    export function fpow(x: number, y: number) {
+        return Math.exp( y * Math.log( x))
+    }
+
+    /**
+     * x raised to the power y
+     * @param x the base value
+     * @param y the exponent
+     */
+    //% block
     //% shim=moreMath::cpow
     export function cpow(x: number, y: number): number {
         return Math.pow(x, y)
